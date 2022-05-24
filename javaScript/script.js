@@ -28,14 +28,26 @@
  */
 
 /**
- * Declare a variable called 'Country','continent' and 'population' and assign their value according to your own country
+ * Declare a variable called 'Country','continent' and 'population' and assign their values according to your favourite country
  * and log their values (HINT: console.log() )
- 
- const country = 'India';
- const continent = 'Asia';
- let population = 7.8;
- 
  */
+
+// whenever you get a big problem, never get scared instead try to divide 1 big problem into multiple small problems and you will see a way out!
+
+const country = "India";
+const continent = "Asia";
+const population = "7.8 Million";
+
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+
+// console.log(
+//   " I live in "+ country + "and it is in" +continent+ " and my country have population of" + population + "yes it is turuuu"
+// );
+
+//' I live in india and it is in asia and my country have population of 7.8 million'
+
 ////////////////////////////////// Data-Types ///////////////////////////////////////////////
 /**
  * there are 7 primitives data types
@@ -80,9 +92,9 @@
 //Maths operators
 
 /**
+let x = 10;
  * 
  
- let x = 10 + 5;
  console.log(x);
  
  x = x + 5; // x = 15 + 5
@@ -102,12 +114,41 @@
 /**
  * Increment x = x + 1, x++
  * Decrement x = x - 1, x--
+ 
+ // Comparision Operators
+ 
+ let y = 10,
+ z = 10;
+ console.log(y > z);
+ console.log(y < z);
+ 
+ console.log(y <= z); // is less then or equal to
+ console.log(y >= z); // is greater then or equal to
+ 
+ // Equality Operators
+ 
+ const x = 10;
+ const x2 = 10;
+ const x3 = 12;
+ const x4 = "10";
+ 
+ console.log(x == x2);
+ console.log(x === x4);
  */
 
-// Comparision Operators
+/**
+ * //////////////////////-------------ASSIGMENT--------------///////////////////////////////
+ * 1) If your favourite country split in half and each half would contain half the population, then how many people would live in each half.
+ *
+ * 2) Increase the population of your fav country by 1 and log the result
+ *
+ * 3) Finland has a population of 6 Million. Does your country have more then finland?
+ *
+ * 4) The average population of a country in this woulrd is 33 Million people. Does your country have less people then average country?
+ *
+ * 5) Based on the variables you created, create a new variable 'Description' which contains a string with this format.
+ *  'Portugal is in Europe, and its has population of 11 Million. People speak portuguese
+ *
+ */
 
-let y = 10,
-  z = 12;
-console.log(y > z);
-
-// Equality Operators
+// it is hard but it is meant to be!!, so that you guys become tuffer, you guys owe this challenge to yourself
