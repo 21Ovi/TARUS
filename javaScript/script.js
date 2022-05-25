@@ -34,9 +34,9 @@
 
 // whenever you get a big problem, never get scared instead try to divide 1 big problem into multiple small problems and you will see a way out!
 
-const country = "India";
-const continent = "Asia";
-const population = "7.8 Million";
+// const country = "India";
+// const continent = "Asia";
+// const population = "7.8 Million";
 
 // console.log(country);
 // console.log(continent);
@@ -152,3 +152,23 @@ let x = 10;
  */
 
 // it is hard but it is meant to be!!, so that you guys become tuffer, you guys owe this challenge to yourself
+
+
+const MyCountry = "India";
+let population = 137;
+const halfPopulation = population / 2;
+
+console.log(
+  "Total number of people lives iun first half is :" + halfPopulation
+);
+
+population++;
+console.log(population);
+
+const finland = 6;
+const isMyCountryPopulationGreaterThanFinland = population > finland;
+console.log(
+  "is my country have population more then finland? " +
+    isMyCountryPopulationGreaterThanFinland
+);
+
