@@ -153,7 +153,7 @@ let x = 10;
 
 // it is hard but it is meant to be!!, so that you guys become tuffer, you guys owe this challenge to yourself
 
-
+/**
 const MyCountry = "India";
 let population = 137;
 const halfPopulation = population / 2;
@@ -171,4 +171,88 @@ console.log(
   "is my country have population more then finland? " +
     isMyCountryPopulationGreaterThanFinland
 );
+
+/**
+ * suppose, if we need to write a program of multiple lines we have 2 options
+ * 1: Quotes '' or double quotes(results will be same)
+ * 2: back ticks ``
+ const myName = "Monal";
+ const MyNewName = "Monal Shah";
+ const myPetName = `Panda`;
+ 
+ console.log(myName, MyNewName, myPetName);
+ console.log("my name is " + myName + "\n I live in India");
+ console.log(`my name is ${myName} 
+ I live in India`);
+ 
+ const str = `My Name is ${myPetName} 
+ I live in India
+ my age is ${2022 - 2002}`;
+ console.log(str);
+ 
+ ///////////////////////// IF ELSE /////////////////////////
+ // Driving License Elidgibilty Testing Application
+ 
+ const ElidgibleAge = 18;
+ const myAge = Number(prompt("Enter Your Age"));
+ 
+ if (myAge >= ElidgibleAge && myAge <= 70) {
+   console.log(`You are Elidgibe for Driving License 🚗🏎️`);
+  } else if (myAge > 70) {
+    console.log("You are too old for a License, please take some rest grandpa🧓");
+  } else {
+    console.log(`Sorry, You are not Elidgible for a Driving Licecnse 😟`);
+  }
+  
+  */
+
+/**
+  * 
+  //Grading Application
+  
+  // const TotalMarks = Number(prompt("Enter your marks"));
+  const TotalMarks = 67;
+  if (TotalMarks < 30) {
+    console.log("Fail");
+  } else if (TotalMarks < 45) {
+    console.log("C Grade");
+  } else if (TotalMarks < 80) {
+    console.log("B Grade");
+  } else if (TotalMarks < 100) {
+    console.log("A Grade");
+  } else {
+    console.log("Please enter valid grade");
+  }
+  
+  */
+
+/**
+ * 1: Recreate the 'description' variable from the last assignment, this time using the template literal syntax
+ *
+ * 2: If your country's population is greater that 33 million, log a string like this to the
+      console: 'Portugal's population is above average'. Otherwise, log a string like
+      'Portugal's population is 22 million below average' (the 22 is the average of 33
+       minus the country's population)
+
+*  3: After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
+ */
+
+/** 
+  Coding Challenge #2
+
+  Use the BMI example from Challenge #1, and the code you already wrote, and
+  improve it.
+
+  Your tasks:
+  1. Print a nice output to the console, saying who has the higher BMI. The message
+  is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+
+  2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+  BMI (28.3) is higher than John's (23.9)!"
+  
+  Hint: Use an if/else statement 😉
+
+      GOOD LUCK 😀
+ */
+
 
