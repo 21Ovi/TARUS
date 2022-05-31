@@ -1,4 +1,4 @@
-// Note
+// iote
 //  Javascript is a high level object oriented, multi paradgim programming language
 
 // Object oriented Programming Languages: Java, C++
@@ -138,6 +138,7 @@ let x = 10;
 
 /**
  * //////////////////////-------------ASSIGMENT--------------///////////////////////////////
+ *
  * 1) If your favourite country split in half and each half would contain half the population, then how many people would live in each half.
  *
  * 2) Increase the population of your fav country by 1 and log the result
@@ -149,29 +150,30 @@ let x = 10;
  * 5) Based on the variables you created, create a new variable 'Description' which contains a string with this format.
  *  'Portugal is in Europe, and its has population of 11 Million. People speak portuguese
  *
- */
+ 
+ // it is hard but it is meant to be!!, so that you guys become tuffer, you guys owe this challenge to yourself
+ 
+ const MyCountry = "India";
+ let population = 137;
+ const halfPopulation = population / 2;
+ 
+ console.log(
+   "Total number of people lives iun first half is :" + halfPopulation
+   );
+   
+   population++;
+   console.log(population);
+   
+   const finland = 6;
+   const isMyCountryPopulationGreaterThanFinland = population > finland;
+   console.log(
+     "is my country have population more then finland? " +
+     isMyCountryPopulationGreaterThanFinland
+     );
+     
+     */
 
-// it is hard but it is meant to be!!, so that you guys become tuffer, you guys owe this challenge to yourself
-
-/**
-const MyCountry = "India";
-let population = 137;
-const halfPopulation = population / 2;
-
-console.log(
-  "Total number of people lives iun first half is :" + halfPopulation
-);
-
-population++;
-console.log(population);
-
-const finland = 6;
-const isMyCountryPopulationGreaterThanFinland = population > finland;
-console.log(
-  "is my country have population more then finland? " +
-    isMyCountryPopulationGreaterThanFinland
-);
-
+////////////////////////////// Template Literals /////////////////////////////////////
 /**
  * suppose, if we need to write a program of multiple lines we have 2 options
  * 1: Quotes '' or double quotes(results will be same)
@@ -238,56 +240,6 @@ console.log(
  */
 
 /** 
-let markHeight = 1.69, johnHeight = 1.88;
-let markWeight = 78, JohnWeight = 92;
-console.log("Results of data from test 1");
-
-console.log("BMI of Mark is")
-let markBMI, johnBMI, weight, height;
-weight = markWeight;
-height = markHeight;
-markBMI = weight / height ** 2;
-
-console.log(markBMI);
-
-console.log("BMI of John is");
-weight = JohnWeight;
-height = johnHeight;
-johnBMI = weight / height ** 2;
-
-console.log(johnBMI);
-
-console.log("Mark's BMI is Higer then John's ")
-console.log(markBMI > johnBMI);
-console.log("John's BMI is Higer then Mark's ")
-console.log(johnBMI > markBMI);
-
-
-console.log("_________________________________________________________________");
-
-console.log("Results for test 2");
-
-markHeight = 1.88, johnHeight = 1.76;
-markWeight = 95, JohnWeight = 85;
-
-console.log("BMI of Mark is")
-weight = markWeight;
-height = markHeight;
-markBMI = weight / height ** 2;
-
-console.log(markBMI);
-
-console.log("BMI of John is");
-weight = JohnWeight;
-height = johnHeight;
-johnBMI = weight / height ** 2;
-
-console.log(johnBMI);
-
-console.log("Mark's BMI is Higer then John's ")
-console.log(markBMI > johnBMI);
-console.log("John's BMI is Higer then Mark's ")
-console.log(johnBMI > markBMI);
   Coding Challenge #2
 
   Use the BMI example from Challenge #1, and the code you already wrote, and
@@ -305,4 +257,127 @@ console.log(johnBMI > markBMI);
       GOOD LUCK 😀
  */
 
+//////////////////////////////// Type Conversion abd Coercion ////////////////////////////////
+/**
+ * 
+ // 1. Conversion
+ 
+ // String to Number
+ 
+ const year = "1999";
+ console.log(year);
+ console.log(Number(year));
+ const num = Number(year);
+ console.log(num + 10);
+ 
+ // Just for check trying to convert String character to number
+ console.log(Number("Panda"));
+ console.log(typeof NaN);
+ 
+ // Number to String
+ console.log(String(21));
+ 
+ // Type Coersion
+ console.log("I am " + 23 + " years old");
+ console.log("20" + "10");
+ console.log("20" - "10");
+ console.log("20" / "10");
+ console.log("20" * "10");
+ console.log("20" < "10");
+ 
+ let i = "1" + 1;
+ i = i - 1;
+ console.log(i);
+ 
+ */
 
+//////////////////////////////////////// Truthy and Falsy Values ////////////////////////////////////////
+
+/**
+ * 
+ console.log(Boolean(0)); // false
+ console.log(Boolean(undefined)); //false
+ console.log(Boolean("Panda")); // true
+ console.log(Boolean({})); // true
+ console.log(Boolean("")); // false
+ 
+ // small exersice
+ const money = 0;
+ 
+ if (money) {
+   console.log("Do not spend it all");
+  } else {
+    console.log("You should get some money first");
+  }
+  
+  let height;
+  
+  if (height) {
+    console.log("YAY! height is defined");
+  } else {
+    console.log("Height is not defined");
+  }
+  */
+
+//////////////////////////////////////// Equality Operators. == Vs ===  ////////////////////////////////////////
+
+/**
+ * 
+ // if there is one = then it means you are defining
+ // if there is two == then it means you are Comparing
+ // if there is three === then it means you are Strongly Comparing
+ 
+ const age = "18";
+ if (age === 18) {
+   console.log("You are adult");
+  } else {
+    console.log("😁");
+  }
+  
+  console.log(age === 18);
+  
+  const panda = "Monal Shah";
+  const monal = "Monal Shah";
+  console.log(panda === monal);
+  */
+
+/**
+ *Type Conversion and Coercion
+    1. Predict the result of these 5 operations without executing them:
+    '9' - '5'; 
+    '19' - '13' + '17';
+    '19' - '13' + 17;
+    '123' < 57;
+    5 + 6 + '4' + 9 - 4 - 2;
+    2. Execute the operations to check if you were right
+
+    Equality Operators: == vs. ===
+    
+      1. Declare a variable 'numNeighbours' based on a prompt input like this:
+      prompt('How many neighbour countries does your country
+      have?');
+
+      2. If there is only 1 neighbour, log to the console 'Only 1 border!' (use loose equality
+      == for now)
+
+      3. Use an else-if block to log 'More than 1 border' in case 'numNeighbours'
+      is greater than 1
+
+      4. Use an else block to log 'No borders' (this block will be executed when
+      'numNeighbours' is 0 or any other value)
+
+      5. Test the code with different values of 'numNeighbours', including 1 and 0.
+
+      6. Change == to ===, and test the code again, with the same values of
+      'numNeighbours'. Notice what happens when there is exactly 1 border! Why
+      is this happening?
+
+      7. Finally, convert 'numNeighbours' to a number, and watch what happens now
+      when you input 1
+
+      8. Reflect on why we should use the === operator and type conversion in this
+      situation
+ */
+// const numNeighbours = Number(
+//   prompt("How many neighbour countries does your country have?")
+// );
