@@ -1,4 +1,4 @@
-// iote
+// Note
 //  Javascript is a high level object oriented, multi paradgim programming language
 
 // Object oriented Programming Languages: Java, C++
@@ -342,13 +342,15 @@ let x = 10;
   */
 
 /**
- *Type Conversion and Coercion
+ *Type Conversion and Coercion\
+
     1. Predict the result of these 5 operations without executing them:
     '9' - '5'; 
     '19' - '13' + '17';
     '19' - '13' + 17;
     '123' < 57;
     5 + 6 + '4' + 9 - 4 - 2;
+
     2. Execute the operations to check if you were right
 
     Equality Operators: == vs. ===
@@ -377,7 +379,140 @@ let x = 10;
 
       8. Reflect on why we should use the === operator and type conversion in this
       situation
- */
-// const numNeighbours = Number(
-//   prompt("How many neighbour countries does your country have?")
-// );
+      // const numNeighbours = Number(
+        //   prompt("How many neighbour countries does your country have?")
+        // );
+        
+        //////////////////////////////////////////// Boolean Logic ////////////////////////////////////////
+        
+        const panda1 = 65;
+        const panda2 = 60;
+        const panda3 = 45;
+        
+        if (panda1 > 40 && panda1 < 60) {
+          console.log("okay");
+        } else if (panda1 > 60) {
+          console.log("not okay");
+        }
+        
+        // AND && : if one is false then it will return false
+        // OR || : if one is true it will return true
+        // NOT ! : it will return opposite
+        
+        const license = true;
+        const vision = false;
+        
+        console.log(license && vision);
+        console.log(license || vision);
+        console.log(!vision);
+        
+        const isTired = true;
+        console.log(license && !vision && isTired);
+        
+        if (license && !vision && isTired) {
+          console.log("Good to drive");
+        } else {
+          console.log("Someone else should drive");
+        }
+        */
+/**
+ * 
+ ////////////////////////////////////// Switch Statement /////////////////////////////////////////////////
+ 
+  
+ const day = prompt("Please enter the day");
+ 
+ switch (day) {
+   case "Sunday":
+     alert("Today is Sunday");
+    break;
+  case "Monday":
+    alert("Today is Monday");
+    break;
+  case "Tuesday":
+    alert("Today is Tuesday");
+    break;
+  case "Wednesday":
+    alert("Today is Wednesday");
+    break;
+  case "Thursday":
+    alert("Today is Thursday");
+    break;
+  case "Friday":
+    alert("Today is Friday");
+    break;
+  case "Saturday":
+    alert("Today is Saturday");
+    break;
+  default:
+    alert("please enter a valid day");
+    break;
+}
+*/
+
+//////////////////////////////////////// Ternary Operator ///////////////////////////////////////////
+/** 
+const age = Number(prompt("enter Enter your age: "));
+
+// if (age > 18) {
+//   alert("You are elidgible for a License");
+// } else {
+//   alert(" You are not");
+// }
+
+age > 18 ? alert("You are elidgible for a License") : alert(" You are not");
+
+*/
+
+/**
+ * The switch Statement
+  1. Use a switch statement to log the following string for the given 'language':
+    chinese or mandarin: 'MOST number of native speakers!'
+    spanish: '2nd place in number of native speakers'
+    english: '3rd place'
+    hindi: 'Number 4'
+    arabic: '5th most spoken language'
+    for all other simply log 'Great language too :D'
+
+The Conditional (Ternary) Operator
+
+  1. If your country's population is greater than 33 million, use the ternary operator
+  to log a string like this to the console: 'Portugal's population is above average'.
+  Otherwise, simply log 'Portugal's population is below average'. Notice how only
+  one word changes between these two sentences!
+  
+  2. After checking the result, change the population temporarily to 13 and then to
+  130. See the different results, and set the population back to original
+*/
+
+/**
+  * Coding Challenge #3
+There are two gymnastics teams, Dolphins and Koalas. They compete against each
+other 3 times. The winner with the highest average score wins a trophy!
+Your tasks:
+
+1. Calculate the average score for each team, using the test data below
+
+2. Compare the team's average scores to determine the winner of the competition,
+and print it to the console. Don't forget that there can be a draw, so test for that
+as well (draw means they have the same average score)
+
+3. Bonus 1: Include a requirement for a minimum score of 100. With this rule, a
+team only wins if it has a higher score than the other team, and the same time a
+score of at least 100 points. Hint: Use a logical operator to test for minimum
+score, as well as multiple else-if blocks 😉
+
+4. Bonus 2: Minimum score also applies to a draw! So a draw only happens when
+both teams have the same score and both have a score greater or equal 100
+points. Otherwise, no team wins the trophy
+Test data:
+
+§ Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+§ Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+§ Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+GOOD LUCK 😀
+  * 
+  */
+
+// DRY
+// Don't Repeat Yourself
