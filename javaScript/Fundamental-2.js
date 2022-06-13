@@ -61,4 +61,36 @@ const fruitProcessor = function (apples, oranges) {
 // const oranges = prompt("Enter Number of oranges you want");
 
 // alert(fruitProcessor(apples, oranges));
+
+function sumUp(x, y) {
+  console.log(x + y);
+}
+
+//sumUp(10, 45, 78);
+
+function minusDown(x, y) {
+  console.log(x - y);
+}
+
+function Master(x, y) {
+  minusDown(y, x);
+  sumUp(x, y);
+}
+
+Master(10, 7);
+Master(1, 7);
+Master(10, 71);
+
+*/
+/**
+ * 1) Create a Function which takes 2 parameters and multiply them and log the results
+ *
+ * 2) Create a Function which takes 2 Parameters and divide it
+ *
+ * 3) Create a Function which takes 2 Parameters and then add them using  sumUp function  (Call Function inside a Function)
+ *
+ * 4) Create a Function which takes 2 paramters and then log it with Addition, Subtraction, Multiplication, Divistion in one function,
+ * Hint: You can call all funciton inside that master Funciton
  */
+
+
