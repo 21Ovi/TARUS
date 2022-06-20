@@ -91,6 +91,69 @@ Master(10, 71);
  *
  * 4) Create a Function which takes 2 paramters and then log it with Addition, Subtraction, Multiplication, Divistion in one function,
  * Hint: You can call all funciton inside that master Funciton
- */
+ 
+ function code(monal, kevin, mansi) {
+   const panda = kevin + mansi;
+   const newPanda = monal + panda;
+   return newPanda;
+  }
+  
+  console.log(code("panda", 12, 23));
+  */
 
+///////////////////////////// ARRAY /////////////////////////////////////
 
+// const ovi = 21;
+// const kevin = 12;
+// const monal = 3;
+// const amit = 30;
+// const panda = 31;
+
+// const team = [21, 12, 3, 30, 31, "monal", "kevin"];
+
+////////////////////////////// For Loop ////////////////////////////
+
+// for loop takes 3 parameters
+// 1: Initialization
+// 2: condition
+// 3: Incrementation
+let i;
+//i++ means i = i + 1 (Incrementation)
+// for (i = 0; i <= 6; i++) {
+//   console.log(team[i]);
+// }
+
+// for (i = 0; i <= 100; i++) {
+//   console.log(i);
+// }
+
+// log the first 100 even numbers
+
+// for (i = 0; i <= 100; i++) {
+//   console.log(i % 2);
+// }
+
+// log table of any given number like this 2 * 1 = 2
+
+// for (i = 1; i <= 10; i++) {
+//   console.log(`2 * ${i} = ${2 * i}`);
+// }
+
+// function printTable(num) {
+//   //num = Number(prompt("Enter the number of your wish 😊"));
+
+//   for (i = 1; i <= 10; i++) {
+//     console.log(`${num} * ${i} = ${num * i}`);
+//   }
+// }
+
+// printTable(6);
+// printTable(61);
+
+// const monal = "panda";
+
+// if (monal !== "panda") {
+//   console.log("Monal is Panda🐼");
+// } else {
+//   console.log("Monal is Not a panda 😞");
+// }
