@@ -157,3 +157,31 @@ let i;
 // } else {
 //   console.log("Monal is Not a panda 😞");
 // }
+
+// Print the sum of 1 to given number (n)
+
+// let sum = 0;
+
+// for (i = 1; i <= 10; i++) {
+//   sum = sum + i;
+// }
+
+// console.log(sum);
+// //sum = 55
+// // i = 10
+
+// const sumUp = function (n) {
+//   let sum = 0;
+//   for (i = 1; i <= n; i++) {
+//     sum = sum + i;
+//   }
+//   return sum;
+// };
+
+// console.log(sumUp(50));
+
+// Task: log sum of first 100 even number
+// Task: log sum of first 100 odd number
+// Task: create a function which takes a parameter and will return it's Factorial
+// Factorail: 5! = 1 * 2 * 3 * 4 * 5
+// Task: create a funciton which will take a parameter and return a boolean to check if the given number in a prime number or not..
