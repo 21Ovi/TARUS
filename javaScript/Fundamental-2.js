@@ -185,3 +185,57 @@ let i;
 // Task: create a function which takes a parameter and will return it's Factorial
 // Factorail: 5! = 1 * 2 * 3 * 4 * 5
 // Task: create a funciton which will take a parameter and return a boolean to check if the given number in a prime number or not..
+
+// 1 - 100 : 1+2+3+...+99+100
+
+// const sumUp = function (number) {
+//   let box = 0;
+//   for (i = 1; i <= number; i++) {
+//     box = box + i;
+//   }
+//   return box;
+// };
+// console.log(sumUp(100));
+
+// function sumEvenUp(number) {
+//   let box = 0;
+
+//   for (i = 1; i <= number; i++) {
+//     if (i % 2 === 0) {
+//       box = box + i;
+//     }
+//   }
+//   return box;
+// }
+
+// console.log(sumEvenUp(1000));
+
+// DSA => Data Structure & Algorithm
+
+// Data Structures:
+// 1) Array
+// 2) Dictionary & Object (JSON => JavaScript Object Notation)
+// 3) set
+// 
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// 
+// const arr2 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+// 
+// // sum up all the element of an array
+// 
+// let sum = 0;
+// for (i = 0; i < arr.length; i++) {
+//   sum = sum + arr[i];
+// }
+// //console.log(sum);
+// 
+// // sum up both arrays with same index number
+// 
+// const arr3 = [];
+// 
+// for (i = 0; i < arr.length; i++) {
+//   arr3.push(arr[i] - arr2[i]);
+// }
+// 
+// console.log(arr3);
+
