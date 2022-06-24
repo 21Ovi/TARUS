@@ -216,26 +216,64 @@ let i;
 // 1) Array
 // 2) Dictionary & Object (JSON => JavaScript Object Notation)
 // 3) set
-// 
+//
 // const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// 
+//
 // const arr2 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-// 
+//
 // // sum up all the element of an array
-// 
+//
 // let sum = 0;
 // for (i = 0; i < arr.length; i++) {
 //   sum = sum + arr[i];
 // }
 // //console.log(sum);
-// 
+//
 // // sum up both arrays with same index number
-// 
+//
 // const arr3 = [];
-// 
+//
 // for (i = 0; i < arr.length; i++) {
 //   arr3.push(arr[i] - arr2[i]);
 // }
-// 
+//
 // console.log(arr3);
 
+const array = [];
+
+for (i = 0; i <= 100; i++) {
+  array.push(i);
+}
+
+// console.log(array);
+
+let sum = 0;
+for (i = 0; i < array.length; i++) {
+  sum = sum + array[i];
+}
+
+// console.log(sum);
+
+// function findDuplication(array) {
+//   let object = {};
+//   const result = [];
+
+//   array.forEach(function (item) {
+//     if (!object[item]) {
+//       object[item] = 0;
+//     }
+//     object[item] += 1;
+//   });
+
+//   for (var prop in object) {
+//     if (object[prop] >= 2) {
+//       result.push(prop);
+//     }
+//   }
+
+//   return result;
+// }
+
+// console.log(findDuplication([1, 2, 3, 4, 5, 6, 4, 8, 9, 9, 8]));
+
+// Task : subtract elements from 2 arrays
