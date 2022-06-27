@@ -277,3 +277,43 @@ for (i = 0; i < array.length; i++) {
 // console.log(findDuplication([1, 2, 3, 4, 5, 6, 4, 8, 9, 9, 8]));
 
 // Task : subtract elements from 2 arrays
+
+// Factorial
+
+// 5! = 5 * 4 * 3 * 2 * 1
+// 5! = 1 * 2 * 3 * 4 * 5
+
+function factorail(f) {
+  let fact = 1;
+  for (let i = 1; i <= f; i++) {
+    fact = fact * i;
+    //i   f
+    //1 * 1
+    //2 * 2
+    //3 * 6
+    //4 * 24
+    //5 * 120
+  }
+  return fact;
+}
+
+// console.log(factorail(5));
+// console.log(factorail(20));
+
+// ArmStrong Number Converter
+// Armstong of 21 =  21^10
+// Armstong of 2 =  2^10
+
+// function ArmstrongConverterExpression(number) {
+//   return number ** 10;
+// }
+
+// const ArmstrongConverterDeclaration = function (number) {
+//   return number ** 10;
+// };
+
+// const ArmstrongConverterArrow = (number) => number ** 10;
+
+// console.log(ArmstrongConverterExpression(10));
+// console.log(ArmstrongConverterDeclaration(10));
+// console.log(ArmstrongConverterArrow(10));
