@@ -317,3 +317,62 @@ function factorail(f) {
 // console.log(ArmstrongConverterExpression(10));
 // console.log(ArmstrongConverterDeclaration(10));
 // console.log(ArmstrongConverterArrow(10));
+
+// Prime Number
+
+// function isPrime(num) {
+//   if (num < 2) {
+//     return false;
+//   }
+
+//   for (i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// console.log(isPrime(41));
+
+// Approch 2
+// wrong
+// function isPrime(num) {
+//   for (i = 2; i * i <= num; i++) {
+//     if (num % 2 === 0) {
+//       return false;
+//     }
+//   }
+//   return num > 1;
+// }
+
+// console.log(isPrime(9));
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// function squareUp(array) {
+//   for (i = 0; i < array.length; i++) {
+//     array[i] = array[i] * array[i];
+//   }
+//   console.log(array);
+// }
+
+// squareUp(arr);
+
+// Find highest value in array
+
+// const arr = [45, 56, 12, 87, 12, 78, 96, 24, 47, 100, 78, 52];
+// const arr2 = [45, 56, 12, 87, 12, 78, 96, 24, 47];
+
+// const fetchHighestElement = (arr) => {
+//   let max = 0;
+//   for (i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//       max = arr[i];
+//     }
+//   }
+//   return max;
+// };
+
+// console.log(fetchHighestElement(arr));
+// console.log(fetchHighestElement(arr2));
